@@ -242,7 +242,7 @@ find_catan_universe() {
 
 # CLI
 if [[ ${#@} -eq 0 ]]; then
-  read -p "No option provided. Do you want to install cracked files to Catan Universe? [Y/n]: " reply
+  read -p "No option provided. Do you want to install Cracktan to Catan Universe? [Y/n]: " reply
   if [[ -z "$reply" || "$reply" =~ ^[Yy]$ ]]; then
     mode="install"
   else
